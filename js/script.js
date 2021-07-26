@@ -12,3 +12,26 @@ for(let i = 0; i < icons.length; i++){
 for(let i = 0; i < icons.length; i++){
     cardSubtitle[i].innerHTML = `${icons[i].name}`
 };
+
+let cards = document.getElementsByClassName("card")
+
+select.addEventListener("change",() => {
+    if (select.value === "all"){
+        for (let i = 0; i < cards.length; i++){
+            if(cards[i].classList.contains("hidden")){
+                cards[i].classList.remove("hidden");
+            }
+        }
+    }else{
+        for (let i = 0; i < cards.length; i++){
+            if (select.value != icons[i].type){
+                cards[i].classList.add("hidden");
+            }else{
+                if(cards[i].classList.contains("hidden")){
+                    cards[i].classList.remove("hidden"); 
+                }
+            }
+        }
+    }
+});
+

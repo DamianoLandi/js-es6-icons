@@ -68,3 +68,7 @@ main .card-subtitle{
 .company{
     color: darkslategray;
 }
+
+.hidden{
+    display: none;
+}
