@@ -13,7 +13,7 @@ for(let i = 0; i < icons.length; i++){
     cardSubtitle[i].innerHTML = `${icons[i].name}`
 };
 
-let cards = document.getElementsByClassName("card")
+let cards = document.getElementsByClassName("col")
 
 select.addEventListener("change",() => {
     if (select.value === "all"){
