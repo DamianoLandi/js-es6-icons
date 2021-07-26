@@ -1,0 +1,36 @@
+#first-nav{
+    height: 75px;
+    line-height: 75px;
+}
+
+#first-nav span{
+    color: rgb(26, 197, 240);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#header-second-section{
+    height: 75px;
+    line-height: 75px;
+    background-color: rgb(26, 197, 240);
+}
+
+#second-nav{
+    width: 30%;
+    margin: auto;
+}
+
+#second-nav label{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+#second-nav select{
+   width: 50%; 
+}
+
+main{
+    background-color: rgb(224, 220, 220);
+    height: calc(100vh - 150px);
+}
