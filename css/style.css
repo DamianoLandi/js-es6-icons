@@ -34,3 +34,37 @@ main{
     background-color: rgb(224, 220, 220);
     height: calc(100vh - 150px);
 }
+
+main .card{
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgb(156, 156, 156);
+}
+
+main .card-title{
+    font-size: 40px;
+    text-align: center;
+}
+
+main .card-subtitle{
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.animal{
+    color: blue;
+}
+
+.vegetable{
+    color: goldenrod;
+}
+
+.user{
+    color: purple;
+}
+
+.company{
+    color: darkslategray;
+}
